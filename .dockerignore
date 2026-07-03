@@ -1,0 +1,28 @@
+# Node modules (already installed in container)
+node_modules
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Git files
+.git
+.gitignore
+
+# Docker files themselves
+Dockerfile
+.dockerignore
+
+# OS/IDE files
+.DS_Store
+.vscode/
+.idea/
+
+# Build artifacts (only copy fresh build output)
+build/
+dist/
